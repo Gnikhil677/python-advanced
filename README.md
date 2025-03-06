@@ -75,7 +75,7 @@ I approached each question using Jupyter Notebooks, performing data cleaning, ED
 This analysis focuses on evaluating the salary distribution for various data-related roles in India, such as Data Analysts, Data Scientists, and Data Engineers. By comparing salaries across these positions, the goal is to uncover trends and  helping to understand the financial dynamics of the data job market in India.
 
 Check out my notebook for detailed steps: 
-[Salary_for_datajobs](project\Salary_for_datajobs.ipynb)
+[Salary_for_datajobs](project/Salary_for_datajobs.ipynb)
 
 #### Visualizing the data
 ```python
@@ -92,7 +92,7 @@ ax.xaxis.set_major_formatter(plt.FuncFormatter(lambda x, pos: f'${int(x/1000)}K'
 
 #### Results
 
-![Salary Analysis](project\images\salary_for_datajobs.png)
+![Salary Analysis](project/images/salary_for_datajobs.png)
 
 #### Insights
 
@@ -114,7 +114,7 @@ roles.
 This analysis explores the most in-demand skills for Data Analyst roles in India, highlighting the percentage of jobs that demand specific skills. It highlights the essential technical and analytical skills required, helping professionals understand which competencies to focus on for career growth. Whether you're starting out or looking to upskill, this analysis provides valuable insights into industry expectations.
 
 Check out my notebook for detailed steps: 
-[Skills_percentage](project\Skills_count_in_jobs.ipynb)
+[Skills_percentage](project/Skills_count_in_jobs.ipynb)
 
 #### Visualizing the data
 ```python
@@ -143,7 +143,7 @@ plt.show()
 ```
 
 #### Results
-![Skill_percentage](project\images\skills_percentage.png)
+![Skill_percentage](project/images/skills_percentage.png)
 
 #### Insights
   
@@ -164,7 +164,7 @@ plt.show()
 This analysis identifies the top five most in-demand skills for high-paying data jobs in India. By analyzing job market trends, it highlights the essential technical and analytical skills required for roles like Data Analyst, Data Scientist, and Data Engineer. Understanding these key skills will help professionals and aspiring candidates focus on the right areas for career growth in the data industry.
 
 Check out my notebook for detailed steps:
-[Top_5_skills_for_top_3_roles](project\skills_project.ipynb)
+[Top_5_skills_for_top_3_roles](project/skills_project.ipynb)
 
 #### Visualizing The Data
 ```python
@@ -183,7 +183,7 @@ for i, job_title in enumerate(job_list):
 
 #### Results
 
-![Top_5_skills_for_top_3_roles](project\images\Top_5_skills_for_top_3_roles.png)
+![Top_5_skills_for_top_3_roles](project/images/Top_5_skills_for_top_3_roles.png)
 
 #### Insights
 
@@ -218,7 +218,7 @@ plt.ylabel('Percentage')
 ```
 
 #### Results
-![Skills_trend](project\images\skills_trend.png)
+![Skills_trend](project/images/skills_trend.png)
 
 #### Insights
 
