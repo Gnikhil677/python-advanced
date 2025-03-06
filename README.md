@@ -204,7 +204,7 @@ for i, job_title in enumerate(job_list):
 This analysis presents a visual analysis of the skill trends for Data Analysts in India. It showcases the long-term sustainability of key skills like SQL, Python, Excel, and data visualization tools are expected to remain in high demand, helping professionals identify the most valuable competencies. By understanding these trends, aspiring Data Analysts can make informed decisions about skill development and career growth. 
 
 Check out my notebook for detailed steps:
-[Skills_trend](project\skills_trend.ipynb)
+[Skills_trend](project/skills_trend.ipynb)
 
 #### Visualizing the Data
 ```python
